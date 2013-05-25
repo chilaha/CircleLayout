@@ -70,9 +70,9 @@
     for (NSUInteger i = 0; i < [updateItems count]; i++) {
         UICollectionViewUpdateItem *item = updateItems[i];
         if (item.updateAction == UICollectionUpdateActionDelete) {
-            [self.deletePaths addObject:[NSIndexPath indexPathForItem:i inSection:0]];
+            [self.deletePaths addObject:item.indexPathBeforeUpdate];
         } else if (item.updateAction == UICollectionUpdateActionInsert) {
-            [self.insertPaths addObject:[NSIndexPath indexPathForItem:i inSection:0]];
+            [self.insertPaths addObject:item.indexPathAfterUpdate];
         }
     }
 }
