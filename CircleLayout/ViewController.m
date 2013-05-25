@@ -7,23 +7,27 @@
 //
 
 #import "ViewController.h"
+#import "Cell.h"
 
-@interface ViewController ()
+@interface ViewController () <UICollectionViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    return 20;
 }
 
-- (void)didReceiveMemoryWarning
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
+    UILabel *cellLabel = ((Cell *)cell).label;
+    cellLabel.text = [NSString stringWithFormat:@"%i", indexPath.item];
+    return cell;
 }
 
 @end
