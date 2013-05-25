@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D77BC4AD175148880046D7EA /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D77BC4AC175148880046D7EA /* CircleLayout.m */; };
 		D7CFE166175144A900DCFDD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CFE165175144A900DCFDD0 /* UIKit.framework */; };
 		D7CFE168175144A900DCFDD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CFE167175144A900DCFDD0 /* Foundation.framework */; };
 		D7CFE16A175144A900DCFDD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CFE169175144A900DCFDD0 /* CoreGraphics.framework */; };
@@ -19,11 +20,12 @@
 		D7CFE17F175144A900DCFDD0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CFE17D175144A900DCFDD0 /* MainStoryboard.storyboard */; };
 		D7CFE182175144A900DCFDD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFE181175144A900DCFDD0 /* ViewController.m */; };
 		D7CFE18C1751453A00DCFDD0 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFE1891751453A00DCFDD0 /* Cell.m */; };
-		D7CFE18D1751453A00DCFDD0 /* LineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFE18B1751453A00DCFDD0 /* LineLayout.m */; };
 		D7CFE18F1751472800DCFDD0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CFE18E1751472800DCFDD0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D77BC4AB175148880046D7EA /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		D77BC4AC175148880046D7EA /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
 		D7CFE162175144A900DCFDD0 /* CircleLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CFE165175144A900DCFDD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7CFE167175144A900DCFDD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,8 +44,6 @@
 		D7CFE181175144A900DCFDD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7CFE1881751453A00DCFDD0 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		D7CFE1891751453A00DCFDD0 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
-		D7CFE18A1751453A00DCFDD0 /* LineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayout.h; sourceTree = "<group>"; };
-		D7CFE18B1751453A00DCFDD0 /* LineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayout.m; sourceTree = "<group>"; };
 		D7CFE18E1751472800DCFDD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -98,8 +98,8 @@
 				D7CFE181175144A900DCFDD0 /* ViewController.m */,
 				D7CFE1881751453A00DCFDD0 /* Cell.h */,
 				D7CFE1891751453A00DCFDD0 /* Cell.m */,
-				D7CFE18A1751453A00DCFDD0 /* LineLayout.h */,
-				D7CFE18B1751453A00DCFDD0 /* LineLayout.m */,
+				D77BC4AB175148880046D7EA /* CircleLayout.h */,
+				D77BC4AC175148880046D7EA /* CircleLayout.m */,
 				D7CFE16C175144A900DCFDD0 /* Supporting Files */,
 			);
 			path = CircleLayout;
@@ -191,7 +191,7 @@
 				D7CFE176175144A900DCFDD0 /* AppDelegate.m in Sources */,
 				D7CFE182175144A900DCFDD0 /* ViewController.m in Sources */,
 				D7CFE18C1751453A00DCFDD0 /* Cell.m in Sources */,
-				D7CFE18D1751453A00DCFDD0 /* LineLayout.m in Sources */,
+				D77BC4AD175148880046D7EA /* CircleLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +316,7 @@
 				D7CFE187175144A900DCFDD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
