@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6B57360188E10AE00DFFC45 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B5735F188E10AE00DFFC45 /* CViewController.m */; };
 		D77BC4AD175148880046D7EA /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D77BC4AC175148880046D7EA /* CircleLayout.m */; };
 		D7CFE166175144A900DCFDD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CFE165175144A900DCFDD0 /* UIKit.framework */; };
 		D7CFE168175144A900DCFDD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CFE167175144A900DCFDD0 /* Foundation.framework */; };
@@ -18,12 +19,13 @@
 		D7CFE17A175144A900DCFDD0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CFE179175144A900DCFDD0 /* Default@2x.png */; };
 		D7CFE17C175144A900DCFDD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CFE17B175144A900DCFDD0 /* Default-568h@2x.png */; };
 		D7CFE17F175144A900DCFDD0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CFE17D175144A900DCFDD0 /* MainStoryboard.storyboard */; };
-		D7CFE182175144A900DCFDD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFE181175144A900DCFDD0 /* ViewController.m */; };
 		D7CFE18C1751453A00DCFDD0 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CFE1891751453A00DCFDD0 /* Cell.m */; };
 		D7CFE18F1751472800DCFDD0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CFE18E1751472800DCFDD0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6B5735E188E10AE00DFFC45 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		B6B5735F188E10AE00DFFC45 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		D77BC4AB175148880046D7EA /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
 		D77BC4AC175148880046D7EA /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
 		D7CFE162175144A900DCFDD0 /* CircleLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,8 +42,6 @@
 		D7CFE179175144A900DCFDD0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D7CFE17B175144A900DCFDD0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D7CFE17E175144A900DCFDD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D7CFE180175144A900DCFDD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7CFE181175144A900DCFDD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7CFE1881751453A00DCFDD0 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		D7CFE1891751453A00DCFDD0 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		D7CFE18E1751472800DCFDD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				D7CFE17D175144A900DCFDD0 /* MainStoryboard.storyboard */,
-				D7CFE180175144A900DCFDD0 /* ViewController.h */,
-				D7CFE181175144A900DCFDD0 /* ViewController.m */,
+				B6B5735E188E10AE00DFFC45 /* CViewController.h */,
+				B6B5735F188E10AE00DFFC45 /* CViewController.m */,
 				D7CFE1881751453A00DCFDD0 /* Cell.h */,
 				D7CFE1891751453A00DCFDD0 /* Cell.m */,
 				D77BC4AB175148880046D7EA /* CircleLayout.h */,
@@ -189,7 +189,7 @@
 			files = (
 				D7CFE172175144A900DCFDD0 /* main.m in Sources */,
 				D7CFE176175144A900DCFDD0 /* AppDelegate.m in Sources */,
-				D7CFE182175144A900DCFDD0 /* ViewController.m in Sources */,
+				B6B57360188E10AE00DFFC45 /* CViewController.m in Sources */,
 				D7CFE18C1751453A00DCFDD0 /* Cell.m in Sources */,
 				D77BC4AD175148880046D7EA /* CircleLayout.m in Sources */,
 			);

@@ -12,6 +12,11 @@
 
 @property (assign, nonatomic) CGPoint center;
 @property (assign, nonatomic) CGFloat radius;
-@property (assign, nonatomic) NSInteger cellCount;
+@property (assign, nonatomic) NSInteger innerCellCount;
+@property (assign, nonatomic) NSInteger outerCellCount;
+
+@property (nonatomic, assign) CGPoint pressedPoint;
+@property (strong, nonatomic) NSIndexPath *pressedCellIndexPath; // current cell being dragged
+
 
 @end
